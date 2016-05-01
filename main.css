@@ -1,0 +1,62 @@
+/* Author: Luigi Vincent */
+
+* {
+	font-family: Tahoma, Geneva, sans-serif;
+}
+a {
+	 text-decoration: none;
+        color: #A6E22E;
+}
+a:hover {
+	text-decoration: underline;
+}
+body {
+	background-color: #272822;
+	color: #F3F3F3;
+}
+
+#keywords {
+	color: #A6E22E;
+}
+
+.input {
+	background-color: #666664;
+	margin: 2px;
+	border: 0;
+}
+.input:focus {
+	background-color: #F3F3F3;
+	outline: none !important;
+	box-shadow:  0 0 10px #A6E22E;
+}
+
+.submit {
+	cursor: pointer;
+	background-color: #666664;
+	color: #F3F3F3;
+	border-radius: 7px;
+}
+.submit:hover {
+	box-shadow:  0 0 10px #A6E22E;
+}
+.submit:active, th {
+	color: #A6E22E;
+}
+table {
+	border-style: double;
+}
+b {
+	color: #FD971F;
+}
+th, td {
+	text-align: center;
+}
+tr:nth-child(2n+2) {
+	background-color: #666664;
+}
+.error {
+	color: #ff1a1a;
+}
+.sucess {
+	color: #A6E22E;
+}
