@@ -39,6 +39,9 @@
 			if ((int)$price[$i] < (int)$cost[$i]) {
 				fail_print("Sell price for $name[$i] may not be less than cost");
 			}
+			if (strlen(trim($description[$i])) == 0) {
+				fail_print("Must enter description for $name[$i].");
+			}
 
 			mysql_query("UPDATE Products_vincenlu SET cost=$cost[$i], sell_price=$price[$i], quantity=$quantity[$i], description='$description[$i]' WHERE id=$id[$i]");
 		}
